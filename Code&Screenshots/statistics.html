@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statistics Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <center>
+	<h1>Statistics Calculator</h1>
+	<form id="stats-form">
+		<label>Enter numbers separated by spaces:</label>
+		<input type="text" id="numbers" />
+		<button id="calculate-btn">Calculate Statistics</button>
+		<div id="error-message"></div>
+		<div id="results-container">
+			<h2>Results:</h2>
+			<p id="mean-label"></p>
+			<p id="variance-label"></p>
+			<p id="std-dev-label"></p>
+		</div>
+	</form>
+</center>
+	<script src="statistics.js"></script>
+</body>
+</html>
